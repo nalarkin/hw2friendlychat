@@ -1,18 +1,16 @@
-# Firebase Codelab: FriendlyChat
+# Friendly Chat
 
-[![Actions Status][gh-actions-badge]][gh-actions]
+## How to use the app. 
 
-This is the source code for the Firebase FriendlyChat codelabs. To get started open the codelab instructions:
+1. Clone the repository.
+2. Make sure you have firebase CLI installed.
+3. Make sure you have the firebase emulator installed.
+   1. If you don't, install by typing `npm install -g firebase-tools@latest` if you npm. If you don't have np, you may install with [standalone binary located here](https://firebase.google.com/docs/cli).
+4. Once installed, navigate to the home folder (there should be a `firebase.json` file located here) and type `firebase emulators:start --project=demo-friendlychat-android` in terminal to start the firebase emulator suite.
+5. Navigate to location specified in CLI
+6. Run the app within android studio.
 
- - [Build FriendlyChat Codelab](https://firebase.google.com/codelabs/firebase-android/)
+## Video Demonstration
 
+https://youtu.be/yQGmuLzyzo0
 
-## How to make contributions?
-Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
-
-
-## License
-See [LICENSE](LICENSE)
-
-[gh-actions]: https://github.com/firebase/codelab-friendlychat-android/actions
-[gh-actions-badge]: https://github.com/firebase/codelab-friendlychat-android/workflows/Android%20CI/badge.svg
