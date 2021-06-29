@@ -34,6 +34,7 @@ import com.google.firebase.ktx.Firebase
 class SignInActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignInBinding
 
+
     private val signIn: ActivityResultLauncher<Intent> =
             registerForActivityResult(FirebaseAuthUIActivityResultContract(), this::onSignInResult)
 

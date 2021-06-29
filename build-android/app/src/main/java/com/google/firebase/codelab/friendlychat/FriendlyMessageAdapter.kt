@@ -89,6 +89,7 @@ class FriendlyMessageAdapter(
         }
     }
 
+
     inner class ImageMessageViewHolder(private val binding: ImageMessageBinding) :
         ViewHolder(binding.root) {
         fun bind(item: FriendlyMessage) {
@@ -102,6 +103,7 @@ class FriendlyMessageAdapter(
             }
         }
     }
+
 
     private fun loadImageIntoView(view: ImageView, url: String) {
         if (url.startsWith("gs://")) {
