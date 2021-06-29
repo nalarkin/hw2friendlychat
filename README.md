@@ -1,5 +1,7 @@
 # Friendly Chat
 
+Link to github: `https://github.com/nalarkin/hw2friendlychat.git`
+
 ## How to use the app. 
 
 1. Clone the repository.
